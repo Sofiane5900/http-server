@@ -1,4 +1,4 @@
-# 🧠 Build Your Own HTTP Server in C# (Console)
+# HTTP Server in C# (Console)
 
 A minimal HTTP server built from scratch using C# and `HttpListener`.  
 This project runs from the console and serves HTTP responses (HTML/JSON) to any client (browser, Postman, curl...).
