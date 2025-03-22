@@ -9,8 +9,3 @@ It runs in the console and listens on `http://localhost:8080/`, returning basic 
 - HTML response rendering
 - Console-based runtime
 - Native .NET API (`HttpListener`)
-
-## Getting Started
-
-```bash
-dotnet run
