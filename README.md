@@ -1,31 +1,16 @@
 # HTTP Server in C# (Console)
 
-A minimal HTTP server built from scratch using C# and `HttpListener`.  
-This project runs from the console and serves HTTP responses (HTML/JSON) to any client (browser, Postman, curl...).
+A simple HTTP server written in C# using `HttpListener`.  
+It runs in the console and listens on `http://localhost:8080/`, returning basic HTML or text responses.
 
----
+## Features (in progress)
 
-## 📌 Features
+- Basic GET request handling
+- HTML response rendering
+- Console-based runtime
+- Native .NET API (`HttpListener`)
 
-- ✅ Listens on `http://localhost:8080/`
-- ✅ Handles incoming HTTP requests (GET)
-- ✅ Sends basic HTML responses
-- ✅ UTF-8 response encoding
-- ✅ Pure console / no external dependencies
-
----
-
-## 🛠 Technologies
-
-- Language: C#
-- Runtime: .NET 6+
-- Core API: `System.Net.HttpListener`
-
----
-
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
-git clone https://github.com/your-username/http-server-csharp.git
-cd http-server-csharp
 dotnet run
